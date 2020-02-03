@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="intersection.nod.xml"/>
+        <edge-files value="intersection.edg.xml"/>
+        <connection-files value="intersection.con.xml"/>
+    </input>
+
+    <output>
+        <output-file value="intersection.net.xml"/>
+    </output>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+    
+    <report>
+        <verbose value="true"/>
+    </report>
+    
+
+</configuration>

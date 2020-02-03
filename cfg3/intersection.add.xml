@@ -1,0 +1,6 @@
+<additional>
+    <rerouter id="00-10"  edges="0010 104i 101o" probability="0.2" >
+        <interval begin="0" end="3600">
+        </interval>
+    </rerouter>
+</additional>

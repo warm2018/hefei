@@ -1,0 +1,11 @@
+<flows>
+    <vType id="vtypeauto" length="4.50" minGap="2.00" maxSpeed="20.00" probability="1.00" color="yellow" carFollowModel="CC" accel="3" decel="3" c1="0.5" xi="1" omegaN="0.2" tauEngine="0.5" lanesCount="4" ccAccel="3" ploegKp="0.2" ploegKd="0.7" ploegH="0.5" sigma="0.0"/>
+	<flow id="a1i" type="vtypeauto" from="to_a1" begin="0" end="3600" probability="0.333"/>
+	<flow id="a2i" type="vtypeauto" from="to_a2" begin="0" end="3600" probability="0.333"/>
+    <flow id="a3i" type="vtypeauto" from="to_a3" begin="0" end="3600" probability="0.333"/>>
+    <flow id="a4i" type="vtypeauto" from="to_a4" begin="0" end="3600" probability="0.333"/>
+    <!--*************100: 0.083****150: 0.125 ****200:0.167****250:0.208*************   -->
+    <!--*************300: 0.250****350: 0.292 ****400:0.333****450:0.375*************   -->
+    <!--*************500: 0.417****600: 0.292 ****400:0.333****450:0.375*************   -->
+    <!-- lane_volume = probability * 3600 / 3 -->
+</flows>

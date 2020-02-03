@@ -1,0 +1,24 @@
+<turns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/turns_file.xsd">
+    <interval begin="0" end="3600">
+        <fromEdge id="a1i">
+            <toEdge id="a2o" probability="33.33333333"/>
+            <toEdge id="a3o" probability="33.33333333"/>
+            <toEdge id="a4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="a2i">
+            <toEdge id="a1o" probability="33.33333333"/>
+            <toEdge id="a3o" probability="33.33333333"/>
+            <toEdge id="a4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="a3i">
+            <toEdge id="a1o" probability="33.33333333"/>
+            <toEdge id="a2o" probability="33.33333333"/>
+            <toEdge id="a4o" probability="33.33333333"/>
+        </fromEdge>
+        <fromEdge id="a4i">
+            <toEdge id="a1o" probability="33.33333333"/>
+            <toEdge id="a2o" probability="33.33333333"/>
+            <toEdge id="a3o" probability="33.33333333"/>
+        </fromEdge>
+    </interval>
+</turns>

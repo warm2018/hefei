@@ -1,0 +1,43 @@
+<routes>
+<vType id="car" length="4.8" minGap="2" maxSpeed="20" carFollowModel="Krauss" sigma="0.4" tau="0.8"  accel="2.9" decel="4.5" />
+  
+	<flow id="S_L" begin="0" end= "3600" probability="0.079" type="car">
+		<route edges="a1i a4o"/> 
+	</flow>
+	<flow id="S_S" begin="0" end= "3600" probability="0.223" type="car">
+		<route edges="a1i a3o"/> 
+	</flow>
+	<flow id="S_R" begin="0" end= "3600" probability="0.1" type="car">
+		<route edges="a1i a2o"/> 
+	</flow>
+
+	<flow id="E_L" begin="0" end= "3600" probability="0.109" type="car">
+		<route edges="a2i a1o"/> 
+	</flow>
+	<flow id="E_S" begin="0" end= "3600" probability="0.397" type="car">
+		<route edges="a2i a4o"/> 
+	</flow>
+	<flow id="E_R" begin="0" end= "3600" probability="0.1" type="car">
+		<route edges="a2i a3o"/> 
+	</flow>S
+
+	<flow id="N_L" begin="0" end= "3600" probability="0.079" type="car">
+		<route edges="a3i a2o"/> 
+	</flow>
+	<flow id="N_S" begin="0" end= "3600" probability="0.233" type="car">
+		<route edges="a3i a1o"/> 
+	</flow>
+	<flow id="N_R" begin="0" end= "3600" probability="0.1" type="car">
+		<route edges="a3i a4o"/> 
+	</flow>
+
+	<flow id="W_L" begin="0" end= "3600" probability="0.055" type="car">
+		<route edges="a4i a3o"/> 
+	</flow>
+	<flow id="W_S" begin="0" end= "3600" probability="0.261" type="car">
+		<route edges="a4i a2o"/> 
+	</flow>
+	<flow id="W_R" begin="0" end= "3600" probability="0.1" type="car">
+		<route edges="a4i a1o"/> 
+	</flow>
+</routes>

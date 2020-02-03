@@ -1,0 +1,21 @@
+<additionals>
+    <e1Detector id="W_1" lane="a4o_1" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="W_2" lane="a4o_2" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="W_3" lane="a4o_3" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="W_0" lane="a4o_0" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+
+    <e1Detector id="N_1" lane="a3o_1" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="N_2" lane="a3o_2" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="N_3" lane="a3o_3" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="N_0" lane="a3o_0" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+
+    <e1Detector id="E_1" lane="a2o_1" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="E_2" lane="a2o_2" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="E_3" lane="a2o_3" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="E_0" lane="a2o_0" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+
+    <e1Detector id="S_1" lane="a1o_1" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="S_2" lane="a1o_2" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="S_3" lane="a1o_3" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+    <e1Detector id="S_0" lane="a1o_0" pos="5.000000" freq="150.00" file="LoopOutput.xml" friendlyPos="0"/>
+</additionals>

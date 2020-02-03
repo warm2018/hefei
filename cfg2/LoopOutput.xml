@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/03/19 18:16:29 by Eclipse SUMO GUI Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\Project\hefei\cfg2\intersection.net.xml"/>
+        <route-files value="D:\Project\hefei\cfg2\intersection.rou.xml"/>
+        <additional-files value="D:\Project\hefei\cfg2\intersection.det.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3800"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="none"/>
+    </processing>
+
+    <gui_only>
+        <tracker-interval value="0.1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+</detector>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+ 
+    <connection from="a1i" to="a2o" fromLane="0" toLane="0" />
+    <connection from="a2i" to="a3o" fromLane="0" toLane="0" />
+    <connection from="a3i" to="a4o" fromLane="0" toLane="0" />
+    <connection from="a4i" to="a1o" fromLane="0" toLane="0" />
+    <!--above are 001 intersection's connections  RIGHT TURN   -->
+	<connection from="a1i" to="a3o" fromLane="1" toLane="1" />
+    <connection from="a1i" to="a3o" fromLane="2" toLane="2" />
+
+	<connection from="a2i" to="a4o" fromLane="1" toLane="1" />
+    <connection from="a2i" to="a4o" fromLane="2" toLane="2" />
+    <connection from="a2i" to="a4o" fromLane="3" toLane="3" />
+
+	<connection from="a3i" to="a1o" fromLane="1" toLane="1" />
+    <connection from="a3i" to="a1o" fromLane="2" toLane="2" />
+            
+	<connection from="a4i" to="a2o" fromLane="1" toLane="1" />
+    <connection from="a4i" to="a2o" fromLane="2" toLane="2" />
+    <connection from="a4i" to="a2o" fromLane="3" toLane="3" />
+    <!--above are 001 intersection's connections  STRAIGHT     -->
+
+    <connection from="a1i" to="a4o" fromLane="3" toLane="4" />
+    <connection from="a2i" to="a1o" fromLane="4" toLane="4" />
+    <connection from="a3i" to="a2o" fromLane="3" toLane="4" />
+    <connection from="a4i" to="a3o" fromLane="4" toLane="4" />
+
+    <!--above are 001 intersection's connections  LEFT TURN    -->
+    <!--*********************ONE INTERSECTION**************************   -->
+</connections>
